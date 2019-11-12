@@ -2,7 +2,7 @@
 
 This is our implementation of the paper:
 
-*Chong Chen, Min Zhang, Weizhi Ma, Yongfeng Zhang, Yiqun Liu and Shaoping Ma. 2020. [Efﬁcient Heterogeneous Collaborative Filtering without Negative Sampling for Recommendation.]() 
+*Chong Chen, Min Zhang, Weizhi Ma, Yongfeng Zhang, Yiqun Liu and Shaoping Ma. 2020. [Efﬁcient Heterogeneous Collaborative Filtering without Negative Sampling for Recommendation.](https://chenchongthu.github.io/files/AAAI_EHCF.pdf) 
 In AAAI'20.*
 
 **Please cite our AAAI'20 paper if you use our codes. Thanks!**
