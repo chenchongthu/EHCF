@@ -563,7 +563,7 @@ if __name__ == '__main__':
                 print 'loss,loss_no_reg,loss_reg ', loss[0] / ll, loss[1] / ll, loss[2] / ll
 
                 if epoch < 500:
-                    if epoch % 250 == 0:
+                    if epoch % 10 == 0:
                         dev_step(tset, train_m, test_m)
                         dev_cold(u_train,i_train, tset, train_m, test_m)
                 if epoch >= 500:
