@@ -53,7 +53,7 @@ class EHCF:
         self.weight = [0.1, 0.1, 0.1]
         self.lambda_bilinear = [1e-4, 0.0]
         self.b_num = b_num
-        self.coefficient = [1.0/6, 4.0/6, 1.0/6]
+        self.coefficient = [0.8, 0.05, 0.15]
 
     def _create_placeholders(self):
         self.input_u = tf.placeholder(tf.int32, [None, 1], name="input_uid")
