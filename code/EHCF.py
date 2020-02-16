@@ -395,7 +395,7 @@ def dev_step(tset, train_m, test_m):
         # ndcg10
         ndcg = []
 
-        for kj in [10, 50, 100]:
+        for kj in [50, 100, 200]:
             idx_topk_part = np.argpartition(-pre, kj, 1)
 
             topk_part = pre[np.arange(batch_users)[:, np.newaxis], idx_topk_part[:, :kj]]
