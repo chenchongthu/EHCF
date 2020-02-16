@@ -31,7 +31,7 @@ The parameters for Beibei datasets is:
 
 self.weight = [0.1, 0.1, 0.1]
 
-self.coefficient = [0.8, 0.05, 0.15]
+self.coefficient = [1.0/6, 4.0/6, 1.0/6]
 
 The parameters for Taobao datasets is:
 
