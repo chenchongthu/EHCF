@@ -25,6 +25,21 @@ Author: Chong Chen (cstchenc@163.com)
 - numpy
 - pandas
 
+## Parameter settings
+
+The parameters for Beibei datasets is:
+
+self.weight = [0.1, 0.1, 0.1]
+
+self.coefficient = [1.0/6, 4.0/6, 1.0/6]
+
+The parameters for Taobao datasets is:
+
+self.weight = [0.01, 0.01, 0.01]
+
+self.coefficient = [3.0/6, 2.0/6, 1.0/6]
+
+
 
 ## Example to run the codes		
 
