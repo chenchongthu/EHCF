@@ -37,8 +37,11 @@ The parameters for Taobao datasets is:
 
 self.weight = [0.01, 0.01, 0.01]
 
-self.coefficient = [3.0/6, 2.0/6, 1.0/6]
+self.coefficient = [1.0/6, 4.0/6, 1.0/6]
 
+## Corrections 
+
+We would like to correct one typo error of the paper. In table 2, the HR@10 and NDCG@10 results of our EHCF on Beibei dataset should be 0.1523 and 0.0824, which are much better than baseline methods.
 
 
 ## Example to run the codes		
