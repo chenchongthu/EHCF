@@ -41,7 +41,7 @@ self.coefficient = [1.0/6, 4.0/6, 1.0/6]
 
 ## Corrections 
 
-We would like to correct one typo error of the paper. In table 2, the HR@10 and NDCG@10 results of our EHCF on Beibei dataset should be 0.1523 and 0.0824, which are much better than baseline methods.
+We would like to correct one typo error of the paper. In table 2, the HR@10 and NDCG@10 results of our EHCF on Beibei dataset should be 0.1551 and 0.0831, which are much better than baseline methods.
 
 
 ## Example to run the codes		
