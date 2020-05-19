@@ -63,7 +63,7 @@ deep.dropout_keep_prob: 0.5
 
 Specifically, we suggest to tune "self.weight" among \[0.001,0.005,0.01,0.02,0.05,0.1,0.2,0.5]. It's also acceptable to simply make the three weights the same, e.g., self.weight = \[0.1, 0.1, 0.1] or self.weight = \[0.01, 0.01, 0.01]. Generally, this parameter is related to the sparsity of dataset. If the dataset is more sparse, then a small value of negative_weight may lead to a better performance.
 
-The coefficient parameter determined the importance of different tasks in multi-task learning. In our datasets, there are three loss coefﬁcients λ 1 , λ 2 , and λ 3 . As λ 1 + λ 2 + λ 3 = 1, when λ 1 and λ 2 are given, the value of λ 3 is determined. We tune the three coefﬁcients in \[0, 1/6, 2/6, 3/6, 4/6, 5/6, 1].
+The coefficient parameter determines the importance of different tasks in multi-task learning. In our datasets, there are three loss coefﬁcients λ 1 , λ 2 , and λ 3 . As λ 1 + λ 2 + λ 3 = 1, when λ 1 and λ 2 are given, the value of λ 3 is determined. We tune the three coefﬁcients in \[0, 1/6, 2/6, 3/6, 4/6, 5/6, 1].
 
 The performance of our EHCF is **much better** than existing multi-behavior models like CMF, NMTR, and MB-GCN (SIGIR2020). You can also contact us if you can not tune the parameters properly. 
 
