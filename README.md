@@ -70,10 +70,10 @@ The performance of our EHCF is **much better** than existing multi-behavior mode
 
 ## Statement
 
-The authors of MBGCN compared with us in their previous version and report an inaccurate result of our EHCF. However, after being accepted, they delete the result of our EHCF in their camera-ready version SIGIR 2020 paper (because our EHCF actually performs much better than MBGCN). 
-
-We do not recognize MBGCN as a state-of-the-art method for multi-behavior recommendation. We also call on researchers to not only compared with MBGCN in future research, so as to avoid getting an inaccurate conclusion.
 
 
+For some reasons, we do not recognize **MBGCN** (Multi-behavior Recommendation with Graph Convolution Networks, SIGIR 2020) as a state-of-the-art method for multi-behavior recommendation. We also call on researchers to not only compared with MBGCN in future research, so as to avoid getting an inaccurate conclusion.
 
-First Update Date: May 19, 2020
+
+
+First Update Date: May 27, 2020
