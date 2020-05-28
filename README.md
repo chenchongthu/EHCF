@@ -65,7 +65,14 @@ Specifically, we suggest to tune "self.weight" among \[0.001,0.005,0.01,0.02,0.0
 
 The coefficient parameter determines the importance of different tasks in multi-task learning. In our datasets, there are three loss coefﬁcients λ 1 , λ 2 , and λ 3 . As λ 1 + λ 2 + λ 3 = 1, when λ 1 and λ 2 are given, the value of λ 3 is determined. We suggest to tune the three coefﬁcients in \[0, 1/6, 2/6, 3/6, 4/6, 5/6, 1].
 
-The performance of our EHCF is **much better** than existing multi-behavior models like CMF, NMTR, and MB-GCN (SIGIR2020). You can also contact us if you can not tune the parameters properly. 
+The performance of our EHCF is **much better** than existing multi-behavior models like CMF, NMTR, and **MBGCN (SIGIR2020)**. You can also contact us if you can not tune the parameters properly. 
+
+
+## Statement
+
+The authors of MBGCN compared with us in their previous version and report an inaccurate result of our EHCF. However, after being accepted, they delete the result of our EHCF in their camera-ready version SIGIR 2020 paper (because our EHCF actually performs much better than MBGCN). 
+
+We do not recognize MBGCN as a state-of-the-art method for multi-behavior recommendation. We also call on researchers to not only compared with MBGCN in future research, so as to avoid getting an inaccurate conclusion.
 
 
 
